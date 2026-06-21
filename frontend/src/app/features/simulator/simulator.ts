@@ -1,5 +1,5 @@
 import {Component, computed, signal, viewChild, inject} from '@angular/core';
-import {CurrencyPipe, PercentPipe} from '@angular/common';
+import {CurrencyPipe} from '@angular/common';
 import {InputCurrency} from '../../ui/input-currency/input-currency';
 import {DiscreteSlider} from '../../ui/discrete-slider/discrete-slider';
 import {MonthlyPayments} from './components/monthly-payments/monthly-payments';
@@ -15,7 +15,6 @@ import {CentsToCurrencyPipe} from '../../core/pipes/cents-to-currency-pipe';
     DiscreteSlider,
     MonthlyPayments,
     CurrencyPipe,
-    PercentPipe,
     CentsToCurrencyPipe,
   ],
   templateUrl: './simulator.html',
